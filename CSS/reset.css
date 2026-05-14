@@ -1,0 +1,101 @@
+/* Define box-sizing para todos os elementos */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove margens e espaçamentos padrões */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Evita aumento automático de fonte em dispositivos móveis */
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+  scroll-behavior: smooth;
+}
+
+/* Remove estilos padrão de listas */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Configurações básicas do body */
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+  text-rendering: optimizeSpeed;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Melhora a leitura dos títulos */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.2;
+}
+
+/* Evita quebra problemática de texto */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/* Remove estilos padrões dos links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Facilita o trabalho com imagens e mídias */
+img,
+picture,
+svg,
+video,
+canvas {
+  display: block;
+  max-width: 100%;
+}
+
+/* Faz inputs herdarem a fonte do projeto */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove estilos padrões de botões */
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+/* Melhora quebra de texto em parágrafos */
+p {
+  text-wrap: pretty;
+}
+
+/* Melhora equilíbrio visual dos títulos */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
