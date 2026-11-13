@@ -1,57 +1,76 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SyntaxWear - Ecommerce</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SyntaxWear - Tênis e Sneakers Online</title>
 
-  <link rel="stylesheet" href="./CSS/reset.css">
-  <link rel="stylesheet" href="./CSS/variables.css">
-  <link rel="stylesheet" href="./CSS/base.css">
+    <link rel="stylesheet" href="./CSS/reset.css" />
+    <link rel="stylesheet" href="./CSS/variables.css" />
+    <link rel="stylesheet" href="./CSS/base.css" />
+    <link rel="stylesheet" href="./CSS/layout.css" />
+    <link rel="stylesheet" href="./CSS/components/header.css">
+  </head>
 
-</head>
+  <body>
+    <header class="header">
+      <h1 class="logo">
+        <a href="/" title="SyntaxWear - Tênis e Sneakers Online">
+          <img
+            src="./images/logo/logo.svg"
+            alt="SyntaxWear - Tênis e Sneakers Online"
+          />
+        </a>
+      </h1>
 
-<body>
+      <nav class="nav-center" aria-label="Categorias Principais">
+        <ul>
+          <li><a href="#">Masculino</a></li>
+          <li><a href="#">Feminino</a></li>
+          <li><a href="#">Outlet</a></li>
+        </ul>
+      </nav>
 
-  <!-- HEADER -->
-  <header>
-    <nav>
-      <div class="logo"></div>
+      <nav class="nav-right" aria-label="Menu de Apoio e Usuário">
+        <ul>
+          <li><a href="#">Nossas lojas</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li>
+            <a href="#" aria-label="Minha Conta">
+              <img src="./images/icons/user.svg" alt="Minha Conta" />
+            </a>
+          </li>
+          <li>
+            <a href="#" aria-label="Ajuda">
+              <img src="./images/icons/help.svg" alt="Ajuda" />
+            </a>
+          </li>
+          <li>
+            <a href="#" aria-label="Carrinho de Compras">
+              <img src="./images/icons/bag.svg" alt="" />
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-      <ul class="nav-links">
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-      </ul>
-    </nav>
-  </header>
+    <!-- MAIN -->
+    <main>
+      <!-- HERO -->
+      <section class="hero"></section>
 
-  <!-- MAIN -->
-  <main>
+      <!-- CATEGORIAS -->
+      <section class="categories"></section>
 
-    <!-- HERO -->
-    <section class="hero">
-    </section>
+      <!-- PRODUTOS EM DESTAQUE -->
+      <section class="featured-products"></section>
+    </main>
 
-    <!-- CATEGORIAS -->
-    <section class="categories">
-    </section>
+    <!-- FOOTER -->
+    <footer>
+      <section class="footer-contact"></section>
 
-    <!-- PRODUTOS EM DESTAQUE -->
-    <section class="featured-products">
-    </section>
-
-  </main>
-
-  <!-- FOOTER -->
-  <footer>
-    <section class="footer-contact">
-    </section>
-
-    <section class="footer-links">
-    </section>
-  </footer>
-
-</body>
+      <section class="footer-links"></section>
+    </footer>
+  </body>
 </html>
